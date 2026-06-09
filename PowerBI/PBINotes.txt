@@ -1,0 +1,18 @@
+Panes
+Filter Pane
+Visualization Pane
+Data Pane
+
+
+Importing the Data 
+
+
+By Default when we open the power bi application and start creating report we don't have the data by Default to work with and we can't type data in power bi.
+
+that is why we need to get the data (import the data) from external sources
+like Excel file , txt file, pdf file, coulds (aws ,azure, gcp) ... so on.
+
+there are multiple ways we can import the data into PBI.
+1. click on the get data option in  data Pane
+2. click on the get data option in home tab data group.
+
