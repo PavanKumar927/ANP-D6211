@@ -20,3 +20,11 @@ percentage VARCHAR(5) NOT NULL DEFAULT 0,
 id BIGINT, 
 FOREIGN KEY (id) REFERENCES members(id)
 );
+
+
+select m.id, m.first_name, m.last_name, 
+e.university_name, e.percentage 
+from members m
+left join edu_details e 
+on e.id = m.id;
+
