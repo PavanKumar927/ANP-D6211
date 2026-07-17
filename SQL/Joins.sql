@@ -29,4 +29,18 @@ ON r.id = b.room_id;
 
 
 
+SELECT r.id,r.room_type,r.room_photo_url , 
+b.room_id, b.user_id,b.booking_confirmation_code
+FROM conference_booking.rooms r
+LEFT JOIN conference_booking.bookings b
+ON r.id = b.room_id
+
+UNION ALL
+
+SELECT r.id,r.room_type,r.room_photo_url , 
+b.room_id, b.user_id,b.booking_confirmation_code
+FROM conference_booking.rooms r
+RIGHT JOIN conference_booking.bookings b
+ON r.id = b.room_id;
+
 
