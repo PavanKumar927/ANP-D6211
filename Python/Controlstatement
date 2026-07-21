@@ -1,0 +1,86 @@
+# print numbers form 1 - 5
+# print(1)
+# print(2)
+# print(3)
+# print(4)
+# print(5)
+
+
+# print numbers form 1 - 50
+   # some what we can manage by using print
+
+
+# print numbers form 1 - 500
+    # it is quit impossible to print the numbers
+
+
+
+# print Even numbers form 1 - 500
+    #it is quit difficult to do the job 
+# print odd numbers form 1 - 500
+    #it is quit difficult to do the job 
+
+# the solution for all the above mentioned is by using the control 
+# statements in python we can use this control statement to repeat some
+# activity for n number of times
+
+
+
+
+# syntax 
+# for value in range(max_value):
+    # write what do you want to reapeat 
+
+# here the name value is a variable you can keep anythin you want 
+
+# print numbers form 1 - 50
+
+# for value in range (1, 50):
+#     print(value)
+
+# for vavlue in range(1, 500):
+#     print(value)
+
+
+
+# print Even numbers form 1 - 500
+# if a number is divisable by 2 then it is a even number
+# for pavan in range(1, 500):
+#     if(pavan % 2 == 0):
+#         print(pavan);
+# for pavan in range(2, 500, 2):
+#         print(pavan);
+
+
+
+# print odd numbers form 1 - 500
+# # if a number is not divisable by 2 then it is a odd number
+# for pavan in range(1, 500):
+#     if(pavan % 2 != 0):
+#         print(pavan);
+# 
+# for pavan in range(1, 500, 2):
+#         print(pavan, end=" ");
+
+
+
+# total even numbers in range of 2 - 501 
+# count = 0;
+
+# for value in range (2, 501, 2):
+#     count += 1;
+
+# print(count) #250
+
+# table = 2;
+
+#     for value in range (1 , 10):
+#         print(table  ," X " , value ," = " , table * value )
+
+# for table in range (2, 21):
+#     for value in range (1 , 11):
+#         print(table  ," X " , value ," = " , table * value )
+
+
+
+
