@@ -82,5 +82,3 @@
 #         print(table  ," X " , value ," = " , table * value )
 
 
-
-
